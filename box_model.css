@@ -1,0 +1,33 @@
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#box {
+    background-color: #8CB6C1;
+}
+
+#box-padding {
+    border-style: solid;
+    border-color: #F7CBA1;
+    background-color: #C4CE8D;
+}
+
+#around-box {
+    width: 100%;
+    border: 2px solid red;
+}
+#button {
+    background-color: red;
+    color: white;
+    width: 200px;
+    text-align: center;
+    transition: 0.5s all;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#button:hover {
+    background-color: green;
+}
